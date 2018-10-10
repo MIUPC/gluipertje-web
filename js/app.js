@@ -325,7 +325,7 @@ $("#imageInput").on('change', (e) => {
 
   let img = document.createElement('img');
   img.src = URL.createObjectURL(e.target.files[0]);
-  img.style = ""
+  img.style = "width:18%;"
 
   $("#image_preview").append(img);
   $("#imageSendModal").modal();
